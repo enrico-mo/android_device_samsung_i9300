@@ -13,3 +13,8 @@ ro.lcd_min_brightness=20
 
 # EGL blobs crash on screen off
 ro.egl.destroy_after_detach=true
+
+# 20181222: Test for optimizing battery life
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+wifi.supplicant_scan_interval=180
